@@ -2,7 +2,7 @@ import streamlit as st
 from multiapp import MultiApp
 from app import home, fe_LEDs, try_code
 
-st.set_page_config(page_title='| fftampinongkol', page_icon='👋')
+st.set_page_config(page_title='| itsmecevi', page_icon='👋')
 app = MultiApp()
 
 app.add_app("My Home Page", home.app)
